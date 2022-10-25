@@ -9,7 +9,7 @@ namespace Blackout
     {
         const int PowerMode = 214,
                   Off = 5,
-                  ElementSize = 260;
+                  ElementSize = 260; // Factoring in 32-bit pointers.
 
         delegate bool MonitorEnumProc(
             IntPtr monitor, IntPtr deviceContext, IntPtr clippingRect, IntPtr data);
