@@ -16,6 +16,7 @@ Blackout does not contain any error handling mechanisms and will fail loudly if 
 you may implement your own logic for accepting and handling a silent parameter for invocation. When building Blackout you
 must ensure that the compiler is generating the assembly with debug information to avoid an AV false positive flag.
 
-### Requirements:
+### Minimum Requirements:
 - DDC/CI capable monitor(s)
 - .NET Framework 4.6
+- Windows Vista or Windows Server 2008
